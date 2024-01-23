@@ -36,7 +36,6 @@ vim.opt.expandtab = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 
-
 -- view
 vim.opt.number = true
 vim.opt.title = true

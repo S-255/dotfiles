@@ -136,7 +136,7 @@ require("bufferline").setup{}
 require('codewindow').setup()
 -- require('scrollbar').setup()
 
-require("notify")("My super important message")
+require("notify")("VVLCOME!")
 
 require("noice").setup({
     lsp = {
