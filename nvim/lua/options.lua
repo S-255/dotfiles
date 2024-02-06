@@ -44,6 +44,7 @@ vim.opt.showtabline = 2
 vim.opt.visualbell = false
 vim.opt.showmatch = true
 vim.opt.ambiwidth = 'double'
+vim.opt.relativenumber = true
 
 -- interface
 vim.opt.winblend = 20
@@ -58,3 +59,13 @@ vim.opt.backup = false
 vim.opt.updatetime = 300
 
 vim.o.clipboard = 'unnamedplus'
+
+
+vim.opt.whichwrap:append('b')
+vim.opt.whichwrap:append('s')
+vim.opt.whichwrap:append('h')
+vim.opt.whichwrap:append('l')
+vim.opt.whichwrap:append('<')
+vim.opt.whichwrap:append('>')
+vim.opt.whichwrap:append('[')
+vim.opt.whichwrap:append(']')
