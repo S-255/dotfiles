@@ -16,10 +16,10 @@ km.set('n','<leader>fh', builtin.help_tags, {})
 km.set('n','ss','<cmd>split<Return><C-w>w')
 km.set('n','sv','<cmd>vsplit<Return><C-w>w')
 -- move active window
-km.set('','sh','<C-w>h')
-km.set('','sk','<C-w>k')
-km.set('','sj','<C-w>j')
-km.set('','sl','<C-w>l')
+-- km.set('','sh','<C-w>h')
+-- km.set('','sk','<C-w>k')
+-- km.set('','sj','<C-w>j')
+-- km.set('','sl','<C-w>l')
 
 --whichkey 
 local wk = require("which-key")

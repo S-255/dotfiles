@@ -28,3 +28,5 @@ alias view="nvim -R"
 
 alias python="python3"
 alias pip="python3 -m pip"
+
+alias ls='ls -a'
