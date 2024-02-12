@@ -21,3 +21,11 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 # mac
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     echo 'mac'
+
+    if ! command -v brew &> /dev/null 
+    then
+        echo 'installing brew...'
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    else
+        echo 'brew already installed'
+    fi

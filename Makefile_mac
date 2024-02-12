@@ -4,4 +4,6 @@
 
 set_defaults_mac.sh
 
+.bin/brew.sh
+
 echo 'Restart terminal.'

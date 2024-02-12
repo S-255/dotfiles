@@ -3,6 +3,7 @@ brew update
 brew upgrade
 brew install neovim
 brew install octave
+brew install ffmpeg
 
 # cask
 brew install --cask warp
